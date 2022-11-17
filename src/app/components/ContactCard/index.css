@@ -1,0 +1,41 @@
+.contact-info {
+  display: inline-block;
+  padding: 25px 0;
+  padding-bottom: 75px;
+  text-align: center;
+}
+
+.contact-info h2 {
+  width: 248px;
+  color: #ffffff;
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: 16px;
+  background: #000000;
+}
+
+.social-link {
+  display: block;
+  text-decoration: none;
+  color: #000000;
+  transition: all 0.3s linear;
+}
+
+.social-link:hover {
+  color: #7abcac;
+}
+
+.social-link:active {
+  color: #7abcac;
+}
+
+.social-link:focus {
+  color: #7abcac;
+}
+
+@media screen and (max-width: 1080px) {
+  .contact-info {
+    display: block;
+    padding-bottom: 2rem;
+  }
+}

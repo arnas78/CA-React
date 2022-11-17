@@ -1,0 +1,23 @@
+.skill-container ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.skill-background {
+  text-transform: uppercase;
+  border-radius: 11px;
+  text-align: center;
+  margin-bottom: 30px;
+  padding: 2px 10px;
+  display: inline-block;
+}
+
+.background-green {
+  background: #7abcac;
+}
+.background-yellow {
+  background: #d8da79;
+}
+.background-red {
+  background: #c29486;
+}

@@ -1,0 +1,12 @@
+.degree-container {
+  padding: 10px 0;
+}
+
+.degree-container p {
+  padding: 2px 0;
+}
+
+.education-line {
+  margin-left: 0;
+  max-width: 200px;
+}

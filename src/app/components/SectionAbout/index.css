@@ -1,0 +1,27 @@
+@media screen and (min-width: 1080px) {
+  .grid-about {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-areas:
+      "a b b"
+      "c d e";
+    -moz-column-gap: 4rem;
+    column-gap: 4rem;
+  }
+  .section-links {
+    grid-area: a;
+  }
+  .section-about {
+    grid-area: b;
+  }
+  .section-education {
+    grid-area: c;
+  }
+  .section-personal {
+    grid-area: d;
+  }
+  .section-technical {
+    grid-area: e;
+  }
+}

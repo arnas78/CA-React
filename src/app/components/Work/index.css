@@ -1,0 +1,20 @@
+.job-container-middle {
+  padding: 0 1.25rem;
+  border-right: 2px #dcdcdc solid;
+  border-left: 2px #dcdcdc solid;
+}
+
+@media screen and (min-width: 1080px) {
+  .work-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+    gap: 1rem;
+  }
+}
+@media screen and (max-width: 1080px) {
+  .job-container-middle {
+    border: none;
+    padding: 2rem 0;
+  }
+}

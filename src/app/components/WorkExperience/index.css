@@ -1,0 +1,18 @@
+.job-intro {
+  text-align: center;
+  margin-bottom: 27px;
+}
+
+.job-intro p {
+  margin: 5px 0;
+}
+
+.job-info p {
+  font-weight: 500;
+}
+
+.job-info ul {
+  list-style-type: disc;
+  margin-top: 10px;
+  padding-left: 20px;
+}

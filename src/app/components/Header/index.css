@@ -1,0 +1,33 @@
+.top-bar {
+  background: #7abcac;
+  height: 61px;
+}
+
+@media screen and (max-width: 1080px) {
+  .title-container h2 {
+    width: 80%;
+  }
+  .title-container h1 {
+    font-size: 36px;
+  }
+
+  .title-container {
+    width: 90vw;
+  }
+}
+
+.title-container h2 {
+  max-width: 248px;
+  color: #ffffff;
+  text-align: center;
+  background: #000000;
+}
+
+.title-container {
+  margin: 0 auto;
+  padding: 1.5rem 0;
+  transform: translateY(-15%);
+  text-align: center;
+  max-width: 586px;
+  border: 4px #000000 solid;
+}
